@@ -8,7 +8,7 @@
  * la arista desde el último vertice al primero.
  */
 
-
+//Sele modification
 #include "agmHeur.h"
 // ciclo = v u .. w v
 int costo(vector<int>& ciclo, vector<vector<int>> &graph){
@@ -18,6 +18,9 @@ int costo(vector<int>& ciclo, vector<vector<int>> &graph){
     }
     return costo;
 }
+
+
+
 // OJO: inicializar los vectores con longitud n
 void init(int n){
     forn(i, n){
